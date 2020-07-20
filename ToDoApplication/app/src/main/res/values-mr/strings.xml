@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TO-DO Application</string>
+
+    <string name="roll_the_dice">फासा फेका</string>
+    <string name="roll">रोल</string>
+    <string name="logo">Logo</string>
+    <string name="eg_email">sandytechofficial@gmail.com</string>
+    <string name="eg_password">********</string>
+    <string name="btnLogin">लॉगिन</string>
+    <string name="btnRegister">नोंदणी करा</string>
+    <string name="image_swap">प्रतिमा स्वॅप</string>
+    <string name="sign_out">साइन आउट</string>
+    <string name="todo">सर्व काही</string>
+    <string name="to_do_text">मजकूर करणे</string>
+</resources>

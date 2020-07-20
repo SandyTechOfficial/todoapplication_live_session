@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swapLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageSwap">
+
+    <ImageView
+        android:id="@+id/imgHome2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:onClick="performSwap"
+        app:layout_constraintEnd_toStartOf="@+id/imgDashboard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rifle"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/imgMenu2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:onClick="performSwap"
+        app:layout_constraintEnd_toStartOf="@+id/imgSetting"
+        app:layout_constraintStart_toEndOf="@+id/imgLogin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sword"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/imgSetting2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="performSwap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toEndOf="@+id/imgMenu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/machine_gun"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/imgLogin2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:onClick="performSwap"
+        app:layout_constraintEnd_toStartOf="@+id/imgMenu"
+        app:layout_constraintStart_toEndOf="@+id/imgDashboard"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shotgun"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/imgDashboard2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:onClick="performSwap"
+        app:layout_constraintEnd_toStartOf="@+id/imgLogin"
+        app:layout_constraintStart_toEndOf="@+id/imgHome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rocket"
+        android:contentDescription="@string/todo"/>
+
+    <androidx.constraintlayout.widget.Placeholder
+        android:id="@+id/placeImage"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/imgHome"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="performSwap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgDashboard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bird_house"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/imgDashboard"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="performSwap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgLogin"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgHome"
+        app:srcCompat="@drawable/browser_gauge"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/imgMenu"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="performSwap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgSetting"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgLogin"
+        app:srcCompat="@drawable/navigation_menu"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/imgSetting"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="performSwap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgMenu"
+        app:srcCompat="@drawable/settings_horizontal"
+        android:contentDescription="@string/todo"/>
+
+    <ImageView
+        android:id="@+id/imgLogin"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="performSwap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgMenu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imgDashboard"
+        app:srcCompat="@drawable/login_keys"
+        android:contentDescription="@string/todo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
