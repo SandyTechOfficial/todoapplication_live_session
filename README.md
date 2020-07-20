@@ -2,6 +2,10 @@
 
 In this crash course we will understand what is Android and why you should learn Android. Along with the basic concepts of Android such as API, Dependence, SDK. We will be doing practical, hands-on Android Studio User Interface by designing Layouts with two small functional applications and one fully functional TO-DO application using Firebase as a Server.
 
+## App Output at the END OF SESSION
+<img src="screenshot/app_output.gif" alt="alt text" width="250" height="auto">
+
+
 ## What we will be doing in this LIVE SESSION
 1. Splash Screen
 2. Login / Register Screen
@@ -9,6 +13,8 @@ In this crash course we will understand what is Android and why you should learn
 4. Add data to Firebase
 5. Roll-The-Dice Activity (Number generation - 1 to 6 on Button pressed)
 6. Image Swapping with Transition
+7. Dark Theme
+8. Multi-Language
 
 ## Link of LIVE SESSION
 
@@ -18,7 +24,7 @@ In this crash course we will understand what is Android and why you should learn
 #### Day 4 [Click the link](https://www.youtube.com/watch?v=vFKKYu-lahI&t)
 #### Day 5 [Click the link](https://www.youtube.com/watch?v=evzujHfvYpA)
 
-### For any query or question, you can contact use at:
+## For any query or question, you can contact use at:
 [Our Official Site](https://bit.ly/2BoswrF)
 
 [Email](mailto:contact@sandytech.co.in)
