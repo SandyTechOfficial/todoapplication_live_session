@@ -33,11 +33,11 @@ In this crash course we will understand what is Android and why you should learn
 
 
 ## PLEASE NOTE:
-The porject source code we have upload is not configured with firebase, you have to use your own **FIREBASE ACCOUNT** to run the project code. How to configure **FIREBASE TO YOUR PROJECT** is explained in this [video](https://www.youtube.com/watch?v=Wuc7Uyrv6zQ&t). You may visit and learn how or else watch the whole *LIVE SESSION**
+The project source code we have upload is not configured with firebase, you have to use your own **FIREBASE ACCOUNT** to run the project code. How to configure **FIREBASE TO YOUR PROJECT** is explained in this [video](https://www.youtube.com/watch?v=Wuc7Uyrv6zQ&t). You may visit this given site to learn how or else watch the *LIVE SESSION**
 
 # HAPPY CODING  :v: !!
 
-## VISIT Our SOCIAL PLATFORM
+## VISIT Our SOCIAL PLATFORMS
 
 [Twitter](https://twitter.com/sandytech2020)
 
